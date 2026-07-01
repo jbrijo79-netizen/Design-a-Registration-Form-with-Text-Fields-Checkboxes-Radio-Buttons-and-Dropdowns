@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password">
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music
+        <br><br>
+
+        <label>Department:</label>
+        <select>
+            <option>Select Department</option>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+
+</body>
+</html>
